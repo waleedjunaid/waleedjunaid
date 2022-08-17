@@ -1,0 +1,41 @@
+.inputContainer {
+    background: var(--white-color) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 20px #0000001A;
+    border-radius: 10px;
+    position: relative;
+}
+
+.inputContainer input {
+
+    padding: 10px 70px 10px 20px;
+    border-radius: inherit;
+    width: 100%;
+    font-family: 'hind-madurai-regular';
+    font-size: 20px;
+}
+
+.inputContainer button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    background: var(--main-color) 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    padding: 8px 12px;
+    outline: none;
+    border: none;
+
+}
+
+.inputContainer input::placeholder {
+    letter-spacing: -0.6px;
+    color: var(--placeholder-color);
+}
+
+.inputContainer button .icon {
+    height: 30px;
+    width: 30px;
+    color: var(--white-color);
+}

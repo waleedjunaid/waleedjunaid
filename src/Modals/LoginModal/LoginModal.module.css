@@ -1,0 +1,62 @@
+.modalLoginDailog {
+  justify-content: center;
+}
+.modalLoginContainer {
+  max-width: 80%;
+  align-self: center;
+  padding: 30px 36px;
+  border-radius: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.headingText {
+  color: var(--main-color);
+}
+.headingSubText {
+  color: var(--text-color-gray);
+  font-style: italic;
+}
+
+.mb18 {
+  margin-bottom: 18px;
+}
+
+.signUp {
+  text-align: center;
+  font-size: 16px;
+  font-family: "plus-jakarta-display-regular";
+  color: var(--text-color-gray);
+  margin-top: 10px;
+}
+
+.signUp span {
+  color: var(--main-color);
+}
+
+.navigate {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.forgetPassword {
+  text-align: right;
+  margin-bottom: 15px;
+  font-size: 14px !important;
+  cursor: pointer;
+  color: var(--text-color-gray);
+}
+
+.tooltip {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}

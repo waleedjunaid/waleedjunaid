@@ -1,0 +1,18 @@
+.header {
+  font-family: "plus-jakarta-display-medium";
+  font-size: 24px;
+  color: var(--white-color);
+}
+.iconDiv {
+  margin-bottom: 6px;
+}
+.ratingDiv {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+}
+.ratingDiv > h5 {
+  margin: 0 24px 0px 0;
+}
+.reviewDiv {
+}

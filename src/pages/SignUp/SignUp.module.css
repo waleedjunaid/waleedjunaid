@@ -1,0 +1,50 @@
+.SignUpScreen {
+  background: linear-gradient(
+    0deg,
+    hwb(36deg 89% 0% / 51%) 10%,
+    rgb(254 243 226 / 11%) 80%,
+    #fff4e30d 10%
+  );
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.headingText {
+  color: var(--main-color);
+}
+
+.headerContainer {
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.mb18 {
+  margin-bottom: 18px;
+}
+
+.tooltip {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.tooltipTextArea {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .headingContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+}

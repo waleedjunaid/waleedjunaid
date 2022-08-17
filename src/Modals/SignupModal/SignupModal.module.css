@@ -1,0 +1,59 @@
+.modalSignupDailog {
+  justify-content: center;
+}
+.modalSignupContainer {
+  max-width: 80%;
+  align-self: center;
+  padding: 20px 72px 50px 72px;
+  border-radius: 30px;
+}
+
+.textArea_container {
+  height: 138px;
+}
+.signupBtn {
+  background-color: var(--red-color);
+  border-radius: 10px;
+  padding: 16px 60px;
+}
+.signupBtn_container {
+  text-align: center;
+  margin: 20px 0;
+}
+.signup_logo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.headingText {
+  color: var(--main-color);
+}
+
+.mb18 {
+  margin-bottom: 18px;
+}
+
+.tooltip {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.tooltipTextArea {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 991px) {
+  .modalSignupContainer {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,62 @@
+.footerSection {
+  /* background-color: var(--footerBg-color); */
+  /* background: transparent linear-gradient(0deg, #fedfb385 0%, #ffffff 100%) 0%
+    0% no-repeat padding-box; */
+  background: linear-gradient(#00209129,#002091bd,var(--main-color));
+  /* background: linear-gradient(#00209129,#002091a6, #002091c7); */
+  /* background: linear-gradient(#00209129,#00209159, #002091c7); */
+  /* background: transparent linear-gradient(-168deg, rgb(0 32 145 / 35%), #002091c7) 0%
+    0% no-repeat padding-box; */
+    padding: 120px 0px 10px;
+}
+
+.footerLogo{
+  width: 100%;
+  height: auto;
+}
+
+.footersocial_icons {
+  display: flex;
+  gap: 25px;
+  align-items: start;
+  color: var(--white-color);
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.footerRow {
+  justify-content: space-between;
+}
+
+.footer_logo > img {
+  padding-bottom: 30px;
+}
+
+.footerAbout h3,
+.footerContact h3 {
+  font-family: "helvetica-regular";
+  font-weight: bold;
+  color: var(--white-color);
+  padding-bottom: 30px;
+}
+
+.footerAbout p {
+  color: var(--white-color);
+}
+
+.number,
+.email {
+  padding-bottom: 0 !important;
+  color: var(--white-color);
+
+}
+
+.footer_terms_condions > p {
+  text-align: end;
+  padding-top: 20px;
+  color: var(--white-color);
+}
+.footerNavigations {
+  cursor: pointer;
+  padding-left: 7px;
+}

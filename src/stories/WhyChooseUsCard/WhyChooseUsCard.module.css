@@ -1,0 +1,40 @@
+
+
+.card p {
+    color: var(--text-color-black);
+    
+}
+
+.card {
+    text-align: center;
+    background-color: var( --white-color);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    min-height: 376px;
+}
+
+
+.card h4 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.card img {
+    width: 96px;
+    height: 96px;
+}
+
+@media screen and (min-width:1220px) and (max-width:1600px) {
+.card p{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+
+}    
+.card{
+    min-height: 300px;
+
+}
+}

@@ -1,0 +1,470 @@
+.landingPage {
+  width: 100%;
+}
+
+.container {
+  max-width: 66%;
+  height: 100%;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.headerMainSection{
+  background-color: transparent !important;
+}
+
+.heroSection {
+  /* height: 750px; */
+  background-image: url(../../assets/images/homePageHeroSection.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: calc(100vh + 80px);
+  margin-top: -80px;
+}
+
+.heroSection .overLay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(225deg, rgb(0 32 145 / 35%), #002091c7);
+  /* background-color: #3a3a3a4d; */
+  padding-top: 80px;
+}
+
+.heroSection .right {
+  width: 100%;
+  height: 754px;
+  /* height: 934px; */
+}
+
+.heroSection .right img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+}
+
+.heroSection .left {
+  height: 100%;
+  /* padding-top: 330px; */
+  display: flex;
+  align-items: center;
+  color: var(--white-color);
+}
+
+.heroSection .left .tagline {
+  color: var(--main-color);
+  margin-bottom: 16px;
+}
+
+.heroSection .left h1 {
+  color: var(--white-color);
+  font-family: "plus-jakarta-display-regular";
+  margin-bottom: 26px;
+}
+
+.heroSection .left h1 span {
+  font-family: "plus-jakarta-display-bold";
+}
+
+.heroSection .left .desc {
+  color: var(--white-color);
+}
+.heroSection .left .desc > span {
+  color: var(--text-color-yellow);
+}
+
+.heroSection .left button {
+  margin-top: 33px;
+  padding: 15px 68px;
+}
+
+.heroSection .heroSectionRow {
+  height: calc(100% - 89px);
+}
+
+/* About section starts */
+.aboutUsSection {
+  /* background-image: url("/src/assets/images/about-section-bg.png"); */
+  background: white;
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 100px 0px 80px 0px;
+}
+
+.about_left_section {
+  background-image: url("/src/assets/images/about_secBg.png");
+  background-position: center;
+  background-position: left;
+  background-repeat: no-repeat;
+  /* transform: translateX(-80px); */
+  /* margin-inline-start: -2rem; */
+  background-size: contain;
+}
+
+.about_left_section img {
+  width: 100%;
+}
+/* .about_section {
+    padding: 50px 0;
+} */
+
+.about_right_section {
+  /* max-width: 68%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.about_right_section h5 {
+  color: var(--main-color);
+}
+
+.about_right_section p:last-child {
+  color: var(--text-dark-gray);
+  margin-top: 20px;
+}
+
+.about_right_section p:first-child {
+  color: var(--main-color);
+}
+
+/* About section ends */
+
+.jobSection_container {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.jobSection_RightSection {
+  background-image: url("/src/assets/images/jobSectBg.png");
+  background-position: right 80%;
+  background-repeat: no-repeat;
+  /* margin-inline-end: -3rem; */
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+.jobSection_RightSection img {
+  width: 100%;
+}
+.jobSection_LeftSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.jobSection_LeftSection h2 {
+  color: var(--text-color-black);
+  font-family: "plus-jakarta-display-regular";
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.jobSection_LeftSection p {
+  color: var(--text-color-gray);
+  margin-bottom: 28px;
+}
+
+/* How We Work For Customer */
+.howWeWorkForCustomer {
+  padding: 100px 0px;
+  background: #002091c7;
+  /* background-image: url("/src/assets/images/contact-section-bg.png"); */
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.howWeWorkForCustomer .tag {
+  background: var(--white-color);
+  border-radius: 80px;
+  padding: 5px 45px;
+  margin-bottom: 8px;
+}
+
+.howWeWorkForCustomer .headingsCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.howWeWorkForCustomer .headingsCol h2 {
+  color: var(--white-color);
+  margin-bottom: 70px;
+}
+
+.howWeWorkForBusiness {
+  padding: 70px 0px 100px 0px;
+  background-image: url("/src/assets/images/about-section-bg.png");
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.howWeWorkForBusiness .headingsCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.howWeWorkForBusiness .tag {
+  background: var(--main-color);
+  border-radius: 80px;
+  padding: 5px 45px;
+  margin-bottom: 8px;
+  color: var(--white-color);
+}
+
+.howWeWorkForBusiness .headingsCol h2 {
+  color: var(--text-color-black);
+  margin-bottom: 70px;
+}
+
+.find_deals {
+  background-color: var(--main-color);
+  padding: 10px 40px;
+  border-radius: 30px;
+  max-width: 46%;
+  color: var(--white-color);
+  border: none;
+}
+
+/* Contact us section starts */
+
+.contact_section {
+  background-image: url("/src/assets/images/contact-section-bg.png");
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 48px 0px;
+  /* height: 719px; */
+}
+
+.contact_us_now h2,
+.contact_us_now p {
+  color: var(--white-color);
+}
+
+.contact_us_now h2 {
+  margin-bottom: 28px;
+}
+
+.contact_formIcons_main {
+  display: flex;
+  align-items: center;
+  /* gap: 24px; */
+  color: var(--white-color);
+  font-size: 18px;
+  margin-top: 27px;
+}
+
+.contact_formIcons_main p {
+  font-family: "plus-jakarta-display-regular";
+  font-size: 18px;
+  margin-left: 18px;
+}
+
+.contact_formIcons_main svg {
+  vertical-align: middle;
+}
+
+.location,
+.email,
+.phone {
+  font-size: 25px;
+}
+
+.formMain_container form {
+  /* width: 60%; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+
+/* 
+.formMain_container form input {
+    padding: 12px 25px;
+    border-radius: 5px;
+    background-color: var(--white-smoke-color);
+    border: 1px solid var(--text-color-gray);
+}
+
+.formMain_container select {
+    padding: 12px 25px;
+    border-radius: 5px;
+    background-color: var(--white-smoke-color);
+    border: 1px solid var(--text-color-gray);
+    color: var(--color-gray);
+}
+
+.formMain_container textarea {
+    -ms-overflow-style: none;
+  
+    scrollbar-width: none;
+  
+    background-color: var(--white-smoke-color);
+    border: 1px solid var(--text-color-gray);
+} */
+
+.formMain_container textarea::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.formMain_container .css-b62m3t-container {
+  padding: 10px !important;
+  background-color: red;
+}
+
+.css-tlfecz-indicatorContainer {
+  color: black;
+}
+
+.formColomn {
+  padding: 0px 7%;
+}
+
+.formMain_container {
+  background: var(--white-color);
+  padding: 50px 50px;
+  border-radius: 20px;
+}
+
+.formSubmit_button {
+  color: var(--white-color);
+  background-color: var(--main-color);
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+}
+
+.contact_us_now {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.formMain_container input:focus,
+.formMain_container select:focus,
+.formMain_container textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Contact us section ends */
+
+/* WhyChooseUs starts */
+.whyChooseUsSection {
+  padding-bottom: 129px;
+  padding-top: 19px;
+  background: transparent
+    linear-gradient(143deg, #ffffff 0%, #fef3e2b5 49%, #ffffff 100%) 0% 0%
+    no-repeat padding-box;
+}
+
+.findDealsSection {
+  padding-top: 100px;
+  background: var(--white-color);
+  /* background: linear-gradient(
+    0deg,
+    hwb(36deg 89% 0% / 51%) 10%,
+    rgb(254 243 226 / 11%) 80%,
+    #fff4e30d 10%
+  ); */
+}
+
+.WhyChooseUs_text {
+  text-align: center;
+}
+
+.WhyChooseUs_text h5 {
+  color: var(--main-color);
+}
+
+.WhyChooseUs_text h2 {
+  color: var(--text-color-black);
+  font-family: "plus-jakarta-display-regular";
+  font-weight: 500;
+}
+
+.WhyChooseUs_text p {
+  color: var(--text-color-black);
+  max-width: 55%;
+  margin: 0px auto;
+}
+
+.WhyChooseUs_card {
+  text-align: center;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  padding: 20px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.WhyChooseUs_row {
+  /* justify-content: center; */
+  /* gap: 20px; */
+  /* margin-top: 100px; */
+}
+
+.WhyChooseUs_row .col {
+  margin-bottom: 52px;
+}
+
+textarea::placeholder {
+  color: var(--text-color-gray);
+  line-height: 18px;
+}
+/* WhyChooseUs ends */
+
+/* ******Media Queries********** */
+@media screen and (max-width: 1440px) {
+  .formColomn {
+    padding: 0px 2%;
+  }
+  .container {
+    max-width: 90% !important;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 80% !important;
+  }
+
+  .WhyChooseUs_text p {
+    max-width: 60%;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .heroSection {
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 65% !important;
+  }
+}
+
+@media (min-width: 1903px) {
+  .LandingPage_heroSection__At3ZS {
+    height: 850px;
+  }
+}
+
+p {
+  margin: 0px;
+}

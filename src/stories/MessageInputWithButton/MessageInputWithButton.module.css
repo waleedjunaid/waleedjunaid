@@ -1,0 +1,8 @@
+.relative {
+  position: relative;
+}
+.sendBtnDiv {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}

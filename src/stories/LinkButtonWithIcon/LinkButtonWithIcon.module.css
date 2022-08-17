@@ -1,0 +1,41 @@
+.btnWithIcon {
+  outline: none;
+  border: unset;
+  display: flex;
+  align-items: center;
+}
+.btnWithIcon:disabled {
+  cursor: auto;
+}
+.left {
+  margin-right: 12px;
+  display: inline-flex;
+}
+.right {
+  margin-left: 12px;
+  display: inline-flex;
+}
+.left svg {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+
+.right svg {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+.btnWithIcon div {
+  display: inherit;
+}
+.iconDisabled {
+}
+.blueColor {
+}
+.blackColor {
+}
+.blackIcon {
+}
+.blueIcon {
+}

@@ -1,0 +1,29 @@
+.radioWithLabel {
+  display: flex;
+  align-items: center;
+}
+.radioWithLabel label {
+  line-height: 1;
+  margin-left: 14px;
+  color: var(--text-color-black) !important;
+  font-size: 18px !important;
+  font-family: "plus-jakarta-display-regular" !important;
+  cursor: pointer;
+}
+
+.radioInput {
+  accent-color: #f56a0d !important;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.labelDisabled {
+  color: #dddddd;
+}
+
+.labelChecked {
+}
+
+.label {
+}

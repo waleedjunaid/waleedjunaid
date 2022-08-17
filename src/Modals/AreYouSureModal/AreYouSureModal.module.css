@@ -1,0 +1,26 @@
+.name {
+  font-family: "plus-jakarta-display-medium";
+  font-size: 18px;
+  color: var(--text-color-black);
+}
+.header {
+  font-family: "plus-jakarta-display-medium";
+  font-size: 24px;
+  color: var(--white-color);
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+.sendDiv {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.iconDiv {
+  margin-bottom: 6px;
+}

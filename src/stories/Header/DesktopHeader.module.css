@@ -1,0 +1,182 @@
+.isSticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: var(--white-color);
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.header {
+  padding: 15px 0px;
+  background-color: var(--white-color);
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+}
+.navbarContainer {
+  max-width: 100%;
+}
+.wrapper {
+  font-family: "Inter", sans-serif;
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mainColor {
+  color: #4d55e5;
+  cursor: pointer;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.linkContainer span {
+  margin-right: 10px;
+}
+
+.logoImage {
+  width: 100%;
+  height: 40px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.goBackLink {
+  padding-left: 30px;
+  /* padding-left: 45px; */
+}
+
+.nabarLinks {
+  color: var(--text-color-black) !important;
+  font-family: "plus-jakarta-display-regular";
+  font-size: 18px !important;
+  padding: 8px 0px;
+  text-decoration: none;
+}
+.navActive {
+  color: var(--main-color) !important;
+}
+
+.signin_button {
+  background-color: var(--button-color);
+  border: 1px solid var(--main-color);
+  color: var(--text-color-black);
+  margin-right: 14px;
+}
+
+.btn {
+  padding: 10px 30px !important;
+  border-radius: 30px;
+  font-family: "plus-jakarta-display-regular";
+}
+
+.signup_button {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border: 1px solid var(--main-color);
+}
+
+.gapCustm {
+  gap: 3rem;
+}
+.dflex {
+  display: flex;
+}
+.signup_button {
+  color: var(--white-color) !important;
+}
+.logBtn {
+  background-color: transparent !important;
+  border: 1px solid var(--main-color);
+  color: var(--text-color-black);
+  padding: 10px 40px;
+}
+.profileImg {
+  width: 47px;
+  height: 47px;
+  box-shadow: 0px 5px 6px #ffa3654d;
+  border-radius: 50%;
+  border: 2px solid #ffa365;
+}
+.profileImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.iconDiv {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.afterIcon {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.notifyoverlayDiv {
+  top: 20px !important;
+  left: -10px !important;
+}
+.SettingsoverlayDiv {
+  top: 12px !important;
+  left: -10px !important;
+}
+.SettingsPopup {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 4px 0 #0000004a;
+  padding: 12px 30px;
+  width: max-content;
+}
+.editProfileIcons {
+  vertical-align: bottom !important;
+  margin-right: 5px;
+}
+.editprofileDiv {
+  margin-bottom: 10px;
+  /* text-align: center; */
+  color: var(--text-dark-gray);
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .gapCustm {
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 1080px) {
+  .gapCustm {
+    gap: 1rem;
+  }
+  .nabarLinks {
+    font-size: 16px !important;
+  }
+  .afterIcon {
+    margin-right: 16px;
+  }
+  .iconDiv svg {
+    width: 25px !important;
+    height: 25px !important;
+  }
+  .iconDiv svg {
+    margin-right: 10px;
+  }
+  .profileImg {
+    width: 35px;
+    height: 35px;
+  }
+}

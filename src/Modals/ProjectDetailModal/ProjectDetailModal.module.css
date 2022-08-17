@@ -1,0 +1,82 @@
+.projectDetailBox {
+}
+.projectDetailBox .cardHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 31px;
+}
+.cardHeader .imgAndTitle {
+  display: flex;
+}
+.cardHeader .imgAndTitle img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-position: center;
+  object-fit: cover;
+}
+.cardHeader .imgAndTitle h5 {
+  margin-left: 24px;
+}
+.projectDetailBox .details {
+  list-style: none;
+  padding-left: 0px;
+}
+.projectDetailBox .details li {
+  margin-bottom: 20px;
+}
+.projectDetailBox .details li h6 {
+  margin-bottom: 20px;
+}
+.projectDetailBox .details .overView {
+  font-size: 16px;
+  font-family: "plus-jakarta-display-regular";
+  color: var(--text-dark-gray);
+  line-height: 24px;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.featureImage {
+  width: 15px;
+  height: auto;
+  filter: invert(50%) sepia(100%) saturate(300%) hue-rotate(330deg)
+    brightness(120%) contrast(120%);
+  margin-right: 7px;
+}
+.cardHeading {
+  font-size: 20px;
+}
+.projectInfo {
+  padding-left: 0px;
+}
+.verifiredSpan {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: "plus-jakarta-display-regular";
+  color: var(--placeholder-color);
+}
+.verifiredSpan svg {
+  margin-right: 6px;
+}
+@media (max-width: 578px) {
+  .cardHeading {
+    font-size: 17px;
+  }
+  .cardHeader .imgAndTitle img {
+    width: 70px;
+    height: 70px;
+  }
+  .cardHeader .imgAndTitle h5 {
+    margin-left: 19px;
+  }
+  .projectDetailBox .cardHeader {
+    margin-bottom: 16px;
+  }
+  .projectDetailBox .details li h6 {
+    margin-bottom: 10px;
+  }
+}

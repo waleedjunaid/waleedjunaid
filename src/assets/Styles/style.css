@@ -1,0 +1,187 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+:root {
+  --main-color: #001f91;
+  /* --main-color: #ffa365; */
+  --text-color-black: #3a3a3a;
+  --text-color-yellow: #ff0;
+  --text-color-gray: #9c9c9c;
+  --text-dark-gray: #707070;
+  --white-color: #ffffff;
+  --button-color: #fff9f1;
+  --footerBg-color: #fff3e3;
+  --white-smoke-color: #f6f6f6;
+  --placeholder-color: #a2a2a2;
+  --light-gray: #d6d6d6;
+  --pink-color: #f6f6f6;
+  --header-orange-color: #fff5e8;
+  --very-light-gray: #e2e2e2;
+  --error-color: red;
+}
+
+body {
+  /* background: linear-gradient(270deg,
+            rgba(254, 243, 226, 1) 0%,
+            rgba(255, 255, 255, 1) 100%); */
+}
+
+/* Helvetica */
+
+@font-face {
+  font-family: "helvetica-regular";
+  src: url("../fonts/Helvetica/Helvetica.ttf");
+}
+
+/* Plus Jakarta Display */
+
+@font-face {
+  font-family: "plus-jakarta-display-bold";
+  src: url("../fonts/Plus-Jakarta-Display/PlusJakartaDisplay-Bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "plus-jakarta-display-medium";
+  src: url("../fonts/Plus-Jakarta-Display/PlusJakartaDisplay-Medium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "plus-jakarta-display-regular";
+  src: url("../fonts/Plus-Jakarta-Display/PlusJakartaDisplay-Regular.otf")
+    format("opentype");
+}
+
+/* Hind Madurai */
+
+@font-face {
+  font-family: "hind-madurai-regular";
+  src: url("../fonts/Hind_Madurai/HindMadurai-Regular.ttf");
+}
+
+/*//////////////////////////////////////////////////////////////////
+  [ RESTYLE TAG ]*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*---------------------------------------------*/
+
+a {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+}
+
+a:focus {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #a64bf4;
+}
+
+body h1 {
+  font-size: 60px;
+  font-family: "plus-jakarta-display-medium";
+  line-height: 65px;
+}
+
+body h2 {
+  font-size: 55px;
+  font-family: "plus-jakarta-display-medium";
+  line-height: 60px;
+}
+
+body h3 {
+  font-size: 30px;
+  font-family: "plus-jakarta-display-medium";
+}
+
+body h4 {
+  font-size: 26px;
+  font-family: "plus-jakarta-display-medium";
+}
+
+body h5 {
+  font-size: 24px;
+  font-family: "plus-jakarta-display-medium";
+}
+
+body h6 {
+  font-size: 20px;
+  font-family: "plus-jakarta-display-medium";
+}
+
+/*---------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+a,
+svg {
+  margin: 0px;
+}
+
+body p.large {
+  font-size: 24px;
+  font-family: "helvetica-regular";
+}
+
+body p.reg,
+button {
+  font-size: 18px;
+  font-family: "helvetica-regular";
+}
+
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
+}
+
+/*---------------------------------------------*/
+
+input {
+  outline: none;
+  border: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* / Firefox / */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+.main-btn {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}

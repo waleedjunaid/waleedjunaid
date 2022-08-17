@@ -1,0 +1,47 @@
+.modal_main {
+  padding: 20px;
+}
+.modal_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal_closeIcon {
+  cursor: pointer;
+}
+.pay_btn {
+  width: 20%;
+  margin-top: 5%;
+  background-color: var(--main-color);
+  border: none;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-weight: 500;
+  color: var(--white-color);
+}
+.field_box {
+  padding: 1% 1%;
+  margin-top: 20px;
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1pxsolidrgba (0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+  border-radius: 33px;
+  margin: auto;
+}
+@media (max-width: 992px) {
+  .modal_main {
+    padding: 0px;
+  }
+  .pay_btn {
+    width: 40%;
+  }
+}

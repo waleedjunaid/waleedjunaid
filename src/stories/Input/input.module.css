@@ -1,0 +1,74 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.labelText {
+}
+
+.inputBox {
+  height: 100%;
+  padding: 15px;
+  width: 100%;
+}
+
+.noBorder {
+  border: none;
+}
+
+.inputPassContainer {
+  display: flex;
+  position: relative;
+  background: var(--white-smoke-color);
+  border-radius: 5px;
+  border: 1px solid var(--light-gray);
+}
+
+.inputPassContainer input {
+  font-family: "plus-jakarta-display-regular";
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  border-radius: inherit;
+  background-color: inherit;
+}
+
+.inputPassContainer input::placeholder {
+  color: var(--text-color-gray);
+}
+
+.inputPassContainer .passwordIcon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
+  color: #cacaca;
+}
+
+.errorText {
+  color: red;
+}
+
+.disabled {}
+
+.leftIconBox {
+  position: absolute;
+  left: 20px;
+  top: 55%;
+  bottom: 45%;
+  transform: translateY(-50%);
+  height: max-content;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*  Firefox  */
+input[type=number] {
+  -moz-appearance: textfield;
+}

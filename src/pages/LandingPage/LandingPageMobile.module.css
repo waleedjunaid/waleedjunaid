@@ -1,0 +1,207 @@
+.LandingPageMobileScreen {
+  width: 100%;
+  height: 100%;
+}
+.heroDiv {
+  background-image: url("../../assets/images/homePageHeroSection.jpg");
+  height: 734px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overLay {
+  width: 100%;
+  height: 100%;
+  padding: 0px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(225deg, rgb(0 32 145 / 35%), #002091c7);
+}
+.heroHeader {
+  color: var(--white-color);
+  font-size: 35px;
+  margin-bottom: 18px;
+  font-family: "plus-jakarta-display-regular";
+  line-height: 42px;
+}
+.heroHeader span {
+  font-family: "plus-jakarta-display-bold";
+}
+.heroContent {
+  color: var(--white-color);
+  font-size: 20px;
+  margin-bottom: 18px;
+  font-family: "helvetica-regular";
+}
+.AboutUs {
+  background: white;
+  height: 623px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.AboutUsDiv {
+  padding: 80px 20px;
+  max-width: 80%;
+}
+.aboutHeader {
+  color: var(--main-color);
+  font-size: 24px;
+  margin-bottom: 12px;
+  font-family: "helvetica-regular";
+}
+.aboutSubHeader {
+  color: var(--text-color-black);
+  font-size: 34px;
+  font-family: "plus-jakarta-display-medium";
+  margin-bottom: 26px;
+  line-height: 40px;
+}
+.aboutDescription {
+  color: var(--text-dark-gray);
+  font-size: 20px;
+  font-family: "helvetica-regular";
+}
+.HowWeWork {
+  background: #002091c7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.HowWeWorkDiv,
+.HowWeWorkBusinessDiv {
+  padding: 40px 26px;
+}
+.HowWeWorkTag {
+  background: var(--white-color);
+  border-radius: 80px;
+  padding: 6px 33px;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+.HowWeWorkHeader,
+.HowWeWorkBusinessHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HowWeWorkHeader h2 {
+  color: var(--white-color);
+  margin-bottom: 24px;
+  font-size: 34px;
+}
+.HowWeWorkBusiness {
+  background-image: url("../../assets/images/about-section-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.HowWeWorkBusinessTag {
+  color: var(--white-color);
+  border-radius: 80px;
+  padding: 6px 33px;
+  margin-bottom: 6px;
+  font-size: 18px;
+  background-color: var(--main-color);
+}
+.HowWeWorkBusinessHeader h2 {
+  color: var(--text-color-black);
+  margin-bottom: 24px;
+  font-size: 34px;
+}
+.FindDeals {
+  background: white;
+  padding: 84px 26px;
+}
+.FindDealsTopHeader,
+.FindDealsMiddleHeader {
+  font-size: 42px;
+  font-family: "plus-jakarta-display-medium";
+  margin-bottom: 28px;
+  color: var(--text-color-black);
+  line-height: 46px;
+}
+.FindDealsTopDescription {
+  font-size: 18px;
+  font-family: "helvetica-regular";
+  margin-bottom: 28px;
+  color: var(--text-dark-gray);
+}
+.FindDealsMiddleDescription {
+  font-size: 18px;
+  font-family: "helvetica-regular";
+  margin-bottom: 28px;
+  color: var(--text-color-black);
+}
+.FindDealsTopDiv,
+.FindDealsMiddleDiv {
+  margin-bottom: 40px;
+}
+.mb28 {
+  margin-bottom: 28px;
+}
+.ContactSection {
+  background-image: url("../../assets/images/contact-section-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 26px;
+}
+.contact_us_now h2,
+.contact_us_now p {
+  color: var(--white-color);
+}
+
+.contact_us_now h2 {
+  margin-bottom: 20px;
+  font-size: 42px;
+}
+.contact_formIcons_main {
+  display: flex;
+  align-items: center;
+  color: var(--white-color);
+  font-size: 18px;
+  margin-top: 27px;
+}
+
+.contact_formIcons_main p {
+  font-family: "plus-jakarta-display-regular";
+  font-size: 18px;
+  margin-left: 18px;
+}
+
+.contact_formIcons_main svg {
+  vertical-align: middle;
+}
+/* form */
+.location,
+.email,
+.phone {
+  font-size: 25px;
+}
+
+.formMain_container {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.formMain_container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+.formMain_container {
+  background: var(--white-color);
+  padding: 35px;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .AboutUs {
+    height: auto;
+  }
+}

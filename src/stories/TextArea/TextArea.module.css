@@ -1,0 +1,28 @@
+.textAreaBox {
+  position: relative;
+}
+.textAreaBox label {
+  margin-bottom: 10px;
+}
+
+.textAreaBox textarea {
+  min-height: 148px;
+  max-height: 148px;
+  border-radius: 10px;
+  border: 1px solid var(--very-light-gray);
+  /* padding: 30px; */
+  padding: 15px 20px;
+  font-size: 18px;
+  font-family: "plus-jakarta-display-regular";
+  color: var(--text-color-black);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 100%;
+
+  background-color: var(--white-smoke-color);
+  border: 1px solid var(--light-gray);
+}
+
+.textAreaBox textarea::placeholder {
+  color: var(--text-color-gray);
+}
