@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3a9a31d.css",
+    "main.js": "/static/js/main.a9dae24d.js",
+    "static/js/787.33d71269.chunk.js": "/static/js/787.33d71269.chunk.js",
+    "static/media/Helvetica.ttf": "/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
+    "static/media/ourWriter.png": "/static/media/ourWriter.98d38488064bce928781.png",
+    "static/media/job-sect-img.png": "/static/media/job-sect-img.fe65fb19b846f5744b2b.png",
+    "static/media/aboutSect.png": "/static/media/aboutSect.91f053fa827f5d0f71d1.png",
+    "static/media/HindMadurai-Regular.ttf": "/static/media/HindMadurai-Regular.f63643838bebb413199c.ttf",
+    "static/media/jobSectBg.png": "/static/media/jobSectBg.dcfb9445c43777232e0d.png",
+    "static/media/about-section-bg.png": "/static/media/about-section-bg.1c45aad71a36496d243c.png",
+    "static/media/resumeSearch.jpg": "/static/media/resumeSearch.5fc1e0e48bc91fc77eb9.jpg",
+    "static/media/PlusJakartaDisplay-Medium.otf": "/static/media/PlusJakartaDisplay-Medium.804fce4c771162e68593.otf",
+    "static/media/PlusJakartaDisplay-Bold.otf": "/static/media/PlusJakartaDisplay-Bold.4380045cafacbf6cc6ba.otf",
+    "static/media/PlusJakartaDisplay-Regular.otf": "/static/media/PlusJakartaDisplay-Regular.15009bbadbd6fbe90efe.otf",
+    "static/media/contact-section-bg.png": "/static/media/contact-section-bg.0cfd16fba1b8eba3e7a2.png",
+    "static/media/profile-img.jpg": "/static/media/profile-img.7c5fde1bfe43256d1357.jpg",
+    "static/media/visaCard.png": "/static/media/visaCard.f893271569106cea6bc6.png",
+    "static/media/otherCards.png": "/static/media/otherCards.fb65abde27579e9df5c3.png",
+    "static/media/unionPay.png": "/static/media/unionPay.c991d3551ccaadd65128.png",
+    "static/media/americanExpress.png": "/static/media/americanExpress.b41ab59ca98d53d0d4cd.png",
+    "static/media/homePageHeroSection.jpg": "/static/media/homePageHeroSection.de1c8fa2ac97af7eedbb.jpg",
+    "static/media/discover.png": "/static/media/discover.095ad896ae31c7984549.png",
+    "static/media/coachDemoImg.png": "/static/media/coachDemoImg.a3ec220c370c64986ed9.png",
+    "static/media/logo-topresume.png": "/static/media/logo-topresume.52485b05bb45386be94e.png",
+    "static/media/master.png": "/static/media/master.1cea46ef2d3b9a15598e.png",
+    "static/media/jcbCard.png": "/static/media/jcbCard.a69644b58aa2e7c773eb.png",
+    "static/media/logoTopresumeWhiteLogo.png": "/static/media/logoTopresumeWhiteLogo.f13f3d5d177ae24a5881.png",
+    "static/media/Featured-Icon.svg": "/static/media/Featured-Icon.b8698496338c11c748650076dd6a6b8a.svg",
+    "index.html": "/index.html",
+    "main.e3a9a31d.css.map": "/static/css/main.e3a9a31d.css.map",
+    "main.a9dae24d.js.map": "/static/js/main.a9dae24d.js.map",
+    "787.33d71269.chunk.js.map": "/static/js/787.33d71269.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3a9a31d.css",
+    "static/js/main.a9dae24d.js"
+  ]
+}
